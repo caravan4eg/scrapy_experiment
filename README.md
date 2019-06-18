@@ -1,4 +1,4 @@
 # scrapy_experiment
-+ Testing of Sacrapy Item and Pipeline features
-+ Store to CSV and JSON files
-Store to PostgreSQL
++ Test of Scrapy Item and Pipeline features
++ Store scraped data to CSV and JSON files
+Store scraped data to PostgreSQL
