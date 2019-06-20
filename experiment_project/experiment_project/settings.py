@@ -69,7 +69,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   # 'experiment_project.pipelines.QuotesJSONPipeline': 300,
+   'experiment_project.pipelines.QuotesJSONPipeline': 300,
    'experiment_project.pipelines.QuotesDBPipeline': 200,
 }
 
