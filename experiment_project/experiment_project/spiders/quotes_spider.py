@@ -3,17 +3,15 @@
 2. +++ Processing data to scrapy Item
 3. +++ Processing data in pipeline: check if exists and 
        store it to PostgreSQL
-4. Scrape proxies and make request to Quotes with proxy
-5. Make User Agent rotation
+4. +++ Scrape proxies and make request to Quotes with proxy
+5. +++ Make User Agent rotation
 
 """
 
 import scrapy
 from ..items import QuotesItem
 
-from datetime import date
 from scrapy import signals
-
 
 RESULT_PAGE_PRIORITY = 0
 PRODUCT_PAGE_PRIORITY = 100
@@ -21,22 +19,14 @@ PRODUCT_PAGE_PRIORITY = 100
 
 class QuotesSpider(scrapy.Spider):
     name = "quotes"
-    today_is = date.today().strftime("%d.%m.%Y")
     custom_settings = {
                     'COOKIES_ENABLED': False,
                     'DOWNLOAD_DELAY': 5,  # per download slot value -> per proxy value
                     'CONCURRENT_REQUESTS': 3,
                     'CONCURRENT_REQUESTS_PER_DOMAIN': 3,
-                    # 'FEED_FORMAT': 'csv',
-                    # 'FEED_URI': f'output/{today_is}_quotes.csv',
-                }
+                        }
 
     proxies = {}
-
-    # start_urls = [
-    #     'http://quotes.toscrape.com/page/1/',
-    #     'http://quotes.toscrape.com/page/2/',
-    # ]
 
     def get_proxy_meta(self):
         meta =  {}
@@ -69,7 +59,7 @@ class QuotesSpider(scrapy.Spider):
             # proxy_item['ip'] = row.xpath('.//td/text()')[0].get()
             # proxy_item['port'] = row.xpath('.//td/text()')[1].get()
             
-            # because can be too few elite proxy
+            # Use it in case too few elite proxy
             # host_port = row_data[0]+':'+row_data[1]
             # self.proxies[host_port] = 0
             # print(f'~~~~~~~~~~~~ Proxy URL: {host_port}  ~~~~~~~~~~')
