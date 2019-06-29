@@ -1,3 +1,12 @@
+"""
+1. +++ Data extraction from http://quotes.toscrape.com/page
+2. +++ Processing data to scrapy Item
+3. +++ Processing data in pipeline: store it to PostgreSQL
+4. Scrape proxies and make rquest to Quotes by proxy
+5. Make User Agent rotation
+
+"""
+
 import scrapy
 from ..items import QuotesItem
 
@@ -9,9 +18,9 @@ class QuotesSpider(scrapy.Spider):
         'http://quotes.toscrape.com/page/2/',
     ]
     # location of saving to csv file
-    custom_settings = {
-                        'FEED_URI': 'output/quotes.csv'
-                    }
+    # custom_settings = {
+    #                     'FEED_URI': 'output/quotes_json.jl'
+    #                 }
 
     def parse(self, response):
         """

@@ -15,8 +15,8 @@ SPIDER_MODULES = ['experiment_project.spiders']
 NEWSPIDER_MODULE = 'experiment_project.spiders'
 
 # Export as CSV Feed
-FEED_FORMAT = "csv"
-# FEED_URI = "quotes_from_settings.csv"
+# FEED_FORMAT = "csv"
+# FEED_URI = "output/quotes_json.jl"
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
@@ -56,9 +56,10 @@ ROBOTSTXT_OBEY = True
 
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
-#DOWNLOADER_MIDDLEWARES = {
-#    'experiment_project.middlewares.ExperimentProjectDownloaderMiddleware': 543,
-#}
+# DOWNLOADER_MIDDLEWARES = {
+#     'scrapy.contrib.downloadermiddleware.useragent.UserAgentMiddleware': None,
+#     'scrapy_user_agents.middlewares.RandomUserAgentMiddleware': 400,
+# }
 
 # Enable or disable extensions
 # See https://doc.scrapy.org/en/latest/topics/extensions.html
@@ -69,7 +70,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'experiment_project.pipelines.QuotesJSONPipeline': 300,
+#    'experiment_project.pipelines.QuotesJSONPipeline': 300,
    'experiment_project.pipelines.QuotesDBPipeline': 200,
 }
 

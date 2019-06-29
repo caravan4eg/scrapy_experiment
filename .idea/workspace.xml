@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b133106-e735-417a-af24-2f42b81b6c3f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/experiment_project/experiment_project/output/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiment_project/experiment_project/output/quotes.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiment_project/experiment_project/output/quotes_json.jl" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/experiment_project/experiment_project/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_project/experiment_project/pipelines.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/experiment_project/experiment_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_project/experiment_project/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiment_project/experiment_project/spiders/quotes_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_project/experiment_project/spiders/quotes_spider.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,8 +75,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/experiment_project/experiment_project/spiders/quotes_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-239">
-              <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+            <state relative-caret-position="-431">
+              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/proxy_scrapy_app/spiders/proxy_scrapy_app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1980">
+              <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="62" selection-end-column="42" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -81,24 +94,26 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/experiment_project/experiment_project/items.py">
+        <entry file="file://$PROJECT_DIR$/experiment_project/experiment_project/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+            <state relative-caret-position="1952">
+              <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/experiment_project/experiment_project/pipelines.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/experiment_project/experiment_project/items.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="70" column="29" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
-              <folding>
-                <element signature="e#1#12#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="224">
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="25" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/experiment_project/scrapy.cfg">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -113,6 +128,17 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>pip</find>
+      <find>midd</find>
+      <find>downloa</find>
+      <find>slot</find>
+      <find>slee</find>
+      <find>randint</find>
+      <find>chec</find>
+      <find>rand</find>
+      <find>dow</find>
+      <find>get_ua_header</find>
+      <find>headers=self.get_ua_header(),</find>
+      <find>spider</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -121,10 +147,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/experiment_project/experiment_project/output/__init__.py" />
         <option value="$PROJECT_DIR$/experiment_project/experiment_project/spiders/quotes_spider.py" />
         <option value="$PROJECT_DIR$/experiment_project/experiment_project/items.py" />
-        <option value="$PROJECT_DIR$/experiment_project/experiment_project/settings.py" />
         <option value="$PROJECT_DIR$/experiment_project/experiment_project/pipelines.py" />
+        <option value="$PROJECT_DIR$/proxy_scrapy_app.py" />
+        <option value="$PROJECT_DIR$/items.py" />
+        <option value="$PROJECT_DIR$/proxy_scrapy_app/models.py" />
+        <option value="$PROJECT_DIR$/proxy_scrapy_app/items.py" />
+        <option value="$PROJECT_DIR$/experiment_project/experiment_project/settings.py" />
+        <option value="$PROJECT_DIR$/proxy_scrapy_app/proxy_scrapy_app.py" />
+        <option value="$PROJECT_DIR$/proxy_scrapy_app/settings.py" />
+        <option value="$PROJECT_DIR$/proxy_scrapy_app/spiders/proxy_scrapy_app.py" />
       </list>
     </option>
   </component>
@@ -140,7 +174,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,12 +197,13 @@
               <item name="experiment_scrapy" type="462c0819:PsiDirectoryNode" />
               <item name="experiment_project" type="462c0819:PsiDirectoryNode" />
               <item name="experiment_project" type="462c0819:PsiDirectoryNode" />
-              <item name="output" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -177,9 +211,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/proxy_scrapy_app/spiders" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -204,21 +244,21 @@
       <option name="presentableId" value="Default" />
       <updated>1560877351251</updated>
       <workItem from="1560877364595" duration="5792000" />
-      <workItem from="1560885897144" duration="21857000" />
+      <workItem from="1560885897144" duration="30293000" />
+      <workItem from="1561479289693" duration="27833000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27649000" />
+    <option name="totallyTimeSpent" value="63918000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1368" height="769" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.20045386" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2036336" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" weight="0.3296355" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -230,15 +270,16 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.9524564" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.18541996" />
       <window_info anchor="bottom" id="Python Console" order="12" />
-      <window_info anchor="right" id="JuliaSciView" weight="0.32980332" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.3296355" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32980332" />
       <window_info anchor="right" id="JSON Viewer" order="4" weight="0.32980332" />
-      <window_info anchor="right" id="Database" order="5" weight="0.11270802" />
+      <window_info anchor="right" id="Database" order="5" weight="0.4236006" />
+      <window_info anchor="right" id="JuliaSciView" order="6" weight="0.329296" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20045386" />
@@ -271,31 +312,15 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/experiment_project/experiment_project/quotes-1.html" />
-    <entry file="file://$PROJECT_DIR$/experiment_project/experiment_project/output/quotes-2.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiment_project/experiment_project/spiders/example.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment_project/experiment_project/output/quotes-2.html" />
+    <entry file="file://$PROJECT_DIR$/experiment_project/experiment_project/spiders/example.py" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a1474542-fbdd-4f29-8d8a-2315ee19f1ba/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiment_project/experiment_project/output/quotes.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiment_project/experiment_project/output/quotes_json.jl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2301">
-          <caret column="31" selection-start-column="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment_project/experiment_project/output/quotes.csv" />
     <entry file="das://a1474542-fbdd-4f29-8d8a-2315ee19f1ba/database/quotes/schema/public/table/quotes_new_table">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state projectRestartId="f9a2ff5a-391c-4d04-bc25-227854ebf200">
@@ -308,36 +333,119 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiment_project/experiment_project/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/experiment_project/experiment_project/output/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiment_project/experiment_project/spiders/quotes_spider.py">
+    <entry file="file://$PROJECT_DIR$/proxy_scrapy_app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-239">
-          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        <state relative-caret-position="352">
+          <caret line="53" column="71" selection-start-line="53" selection-start-column="66" selection-end-line="53" selection-end-column="71" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiment_project/experiment_project/settings.py">
+    <entry file="file://$PROJECT_DIR$/output/25.06.2019_icetrade_tenders.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-103336">
+          <caret line="53" column="204" lean-forward="true" selection-start-line="53" selection-start-column="204" selection-end-line="53" selection-end-column="204" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/items.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy_scrapy_app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2304">
-          <caret line="72" column="32" lean-forward="true" selection-start-line="72" selection-start-column="32" selection-end-line="72" selection-end-column="32" />
+        <state relative-caret-position="96">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment_project/experiment_project/output/quotes_json.jl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy_scrapy_app/output/25.06.2019_icetrade_tenders.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-603555" />
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy_scrapy_app/output/26.06.2019_icetrade_tenders.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-126307" />
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy_scrapy_app/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="133" column="83" selection-start-line="133" selection-start-column="83" selection-end-line="133" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment_project/experiment_project/spiders/quotes_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-431">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment_project/experiment_project/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy_scrapy_app/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/experiment_project/experiment_project/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="70" column="29" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
+        <state relative-caret-position="1580">
+          <caret line="74" column="44" lean-forward="true" selection-start-line="74" selection-start-column="44" selection-end-line="74" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment_project/scrapy.cfg">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment_project/experiment_project/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1952">
+          <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy_scrapy_app/spiders/proxy_scrapy_app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1980">
+          <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="62" selection-end-column="42" />
           <folding>
-            <element signature="e#1#12#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
