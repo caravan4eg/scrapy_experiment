@@ -1,6 +1,7 @@
 import json
 import psycopg2
 from scrapy.exceptions import DropItem
+# from items import QuotesItem, ProxyItem
 
 class QuotesJSONPipeline(object):
     """
@@ -110,3 +111,27 @@ class QuotesDBPipeline(object):
         # close connection to DB
         self.cur.close()
         self.connection.close()
+
+
+class ProxyPipeline(object):
+    
+    def open_spider(self, spider):
+        # Purge old or create new file with list of proxies
+        try:
+            self.file = open('output/list.txt', 'w').close()
+            print('~~~~~~~~~~~~ Old proxy list deleted successfully. OK ~~~~~~~~~~~~')
+    
+        except:
+            print('~~~~~~~~~~~~ Skeep delet of old file... ~~~~~~~~~~~~')
+    
+        # open new proxy list
+        self.file = open('output/list.txt', 'a')
+
+    def process_item(self, item, spider):
+        # write down new proxy to list.txt
+        self.file.write('http://' + item['ip'] + ':' + item['port'] + '\n')
+        spider.log('<<<<< ProxyPipeline >>>>>: processed new proxy url to list.txt...')
+        return item
+
+    def close_spider(self, spider):
+        self.file.close()

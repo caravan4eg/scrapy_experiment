@@ -7,3 +7,6 @@ class QuotesItem(scrapy.Item):
     author = scrapy.Field()
     tags = scrapy.Field()
 
+class ProxyItem(scrapy.Item):
+    ip = scrapy.Field()
+    port = scrapy.Field()
