@@ -1,8 +1,9 @@
 """
 1. +++ Data extraction from http://quotes.toscrape.com/page
 2. +++ Processing data to scrapy Item
-3. +++ Processing data in pipeline: store it to PostgreSQL
-4. Scrape proxies and make rquest to Quotes by proxy
+3. +++ Processing data in pipeline: check if exists and 
+       store it to PostgreSQL
+4. Scrape proxies and make request to Quotes with proxy
 5. Make User Agent rotation
 
 """
